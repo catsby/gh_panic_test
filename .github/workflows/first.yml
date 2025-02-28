@@ -2,9 +2,6 @@ name: first
 
 on: workflow_dispatch
 
-permissions:
-  actions: write
-
 jobs:
   ci:
     runs-on: ubuntu-latest
